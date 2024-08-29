@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceExercise
 {
-    internal class Car : IVehicle, ICompany 
+    public class Car : IVehicle, ICompany 
     {
         public bool HasTrunk { get; set; }
 
