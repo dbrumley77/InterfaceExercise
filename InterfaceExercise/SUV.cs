@@ -29,7 +29,9 @@ namespace InterfaceExercise
 
         public void DisplayDetails()
         {
-            Console.WriteLine($"SUV has the following features: {NumberOfSeats}, {Model}, {Seating}");
+            Console.WriteLine($"SUV has the following features: Seating Capacity: {NumberOfSeats}, " +
+                $"SUV Model: {Model}, " +
+                $"Seating Type: {Seating}");
         }
 
 

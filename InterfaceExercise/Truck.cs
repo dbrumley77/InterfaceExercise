@@ -29,7 +29,10 @@ namespace InterfaceExercise
 
         public void DisplayDetails()
         {
-            Console.WriteLine($"Truck has the following features: {HasToolbox}, {Afforadable}, {Headquarters}");
+            Console.WriteLine($"Truck has the following features: Has ToolBox: {HasToolbox}, " +
+                $"Cost Afforadable: {Afforadable}, " +
+                $"Company Headquarters: {Headquarters}");
+            Console.WriteLine();
         }
 
 

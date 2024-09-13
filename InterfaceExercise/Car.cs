@@ -28,7 +28,8 @@ namespace InterfaceExercise
 
         public void DisplayDetails()
         {
-            Console.WriteLine($"Car has the following features: {HasTrunk}, {FuelIntake}, {Logo}");
+            Console.WriteLine($"Car has the following features: Has TrunK: {HasTrunk}, Fuel Type: {FuelIntake}, Car Logo: {Logo}");
+            Console.WriteLine();
         }
     }
 
